@@ -1,0 +1,27 @@
+{
+  "name": "queues",
+  "version": "0.0.1",
+  "description": "Collection of queue wrappers with a common interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alantu/queues.git"
+  },
+  "keywords": [
+    "queues"
+  ],
+  "author": "Alantu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alantu/queues/issues"
+  },
+  "homepage": "https://github.com/alantu/queues",
+  "dependencies": {
+    "iron_mq": "^0.2.3",
+    "debug": "^1.0.0",
+    "event-emitter": "^0.3.1"
+  }
+}
