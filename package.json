@@ -1,6 +1,6 @@
 {
   "name": "queues",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Collection of queue wrappers with a common interface.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alantu/queues.git"
+    "url": "git://github.com/alantu/queues.git"
   },
   "keywords": [
     "queues"
