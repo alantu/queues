@@ -1,6 +1,6 @@
 {
   "name": "queues",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Collection of queue wrappers with a common interface.",
   "main": "index.js",
   "scripts": {
