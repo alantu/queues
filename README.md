@@ -12,6 +12,9 @@ var provider = queues.iron(config);
 
 var q = provider.get('notifications');
 
+// set a backoff strategy
+q.idleBackoff('linear', 5);
+
 q.connect();
 
 q.on('message', function(msg) {

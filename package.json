@@ -1,6 +1,6 @@
 {
   "name": "queues",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Collection of queue wrappers with a common interface.",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "iron_mq": "^0.2.3",
     "debug": "^1.0.0",
     "event-emitter": "^0.3.1",
-    "aws-sqs": "0.0.6"
+    "aws-sqs": "0.0.6",
+    "aws-sdk": "^2.0.11"
   }
 }
